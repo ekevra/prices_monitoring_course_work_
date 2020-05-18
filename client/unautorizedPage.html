@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+	<meta charset="UTF-8">
+	<title>Категории товаров</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css">	
+</head>
+<body>
+    <nav class="dws-menu">
+		<ul>
+            <li><a href=""><i class="fa fa-home"></i>Главная</a></li>
+            <li><a href="#"><i class="fa fa-coffee"></i>Товары</a>
+				<ul id="categoriesUl">					
+				</ul>
+            </li>			
+            <li><a href="#"><i class="fa fa-shopping-cart"></i>Магазины</a>
+                <ul id="storesUl">					
+				</ul>
+            </li>
+			<li><a href="javascript:contactsButtonClick();"><i class="fa fa-address-book-o"></i>Контакты</a></li>
+			<li><a href="loginPage.html"><i class="fa fa-registered"></i>Регистрация</a></li>
+		</ul>
+	</nav>
+    <div class="registerForm">
+       <h1 style="color:black; background-color:rgba(232, 228, 169, 0.8);">Сервис народного мониторинга цен на продукты питания</h1>
+       <div id="categories">
+       </div>        
+    </div>
+    <div id="productsDiv">
+        <div id="mainText" class="mainPageText">
+            <h2 style="text-align: center;">Мы рады приветствовать Вас на нашем сайте!</h2>
+                Мы старались сделать максимально удобный  и простой в навигации сайт , 
+                который позволит Вам быстро и удобно отслеживать цены в разных магазинах, 
+                либо просто просмотреть наличие и описание того или иного товара в определенном магазине. 
+                Наши специалисты ежедневно наполняют сайт новыми товарами и обновляют цены. 
+                Также специалисты ежедневно работают над увеличением функциональности сайта.
+                При возникновении вопросов или пожеланий, пишите на нашу почту, 
+                адрес которой можно найти на вкладке Контакты.
+        </div>        
+    </div>
+    <div id="productTable">            
+    </div>
+    <script src="javascript/categories.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Регистрация</title>
+	<link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+  <div class="registerForm">
+    <form>
+        <h1 title="Форма регистрации на сайте">Регистрация</h1>
+    		<div class="group">
+    			<label for="">Имя:</label>
+    			<input type="text" id="inputName">
+    		</div>
+        <div class="group">
+    			<label for="">Фамилия:</label>
+    			<input type="text" id="inputSurname">
+    		</div>
+        <div class="group">
+    			<label for="">Логин:</label>
+    			<input type="text" id="inputLogin">
+    		</div>
+    		<div class="group">
+    			<label for="">Пароль:</label>
+    			<input type="password" id="inputPassword">
+    		</div>
+    		<div class="group">
+    			<label for="">Пароль еще раз:</label>
+    			<input type="password" id="inputRepeatPassword">
+    		</div>
+    		<div class="group">
+    			<label for="">Адрес электронной почты:</label>
+    			<input type="email" id="inputEmail">
+    		</div>
+    		<div class="button1">
+    			<center><button onclick="getInputValue();">Зарегистрироваться</button></center>
+    		</div>
+        <div class="button2">
+					<!-- <center><button onclick='location.href="signinPage.html"'>У меня уже есть аккаунт</button></center> -->
+					<center><input class="button3" value="У меня уже есть аккаунт" type="button" onclick="location.href='signinPage.html'" /></center>
+    		</div>
+  	</form>
+  </div>
+	<script src="javascript/login.js"></script>
+</body>
+</html>
